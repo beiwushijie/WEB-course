@@ -1,0 +1,41 @@
+.Calculator {
+    width: 465px;
+    height: 470px;
+    background-color: aqua;
+}
+
+.name {
+    text-align: center;
+}
+
+.display {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dis {
+    height: 30px;
+    width: 400px;
+    text-align: right;
+}
+
+.btn {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.red{
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+.btn button {
+    width: 80px;
+    height: 40px;
+    margin: 6px;
+    border: 1px solid black;
+}
